@@ -22,6 +22,7 @@ h2 {
   color: white;
   text-align: center;
   padding: 160px;
+  width: 100%;
 }
 
 .hero p {
@@ -51,7 +52,7 @@ h2 {
 }
 
 .site-description {
-  margin: 30px;
+  padding: 30px;
 }
 
 p {
@@ -67,6 +68,40 @@ p {
   background-color: var(--primary-color);
 }
 
-.homepage-img {
-  margin: 15px;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 15px 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+  .btn-branded {
+    font-size: 15px;
+  }
+
+  .site-description {
+    text-align: center;
+  }
+
+  .site-description p {
+    font-size: 15px;
+  }
+
+  .description-top-sentence {
+    font-size: 13px;
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+  }
 }
