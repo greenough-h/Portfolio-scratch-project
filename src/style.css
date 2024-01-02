@@ -67,7 +67,7 @@ p {
   background-color: var(--primary-color);
 }
 
-.about-container {
+.content-container {
   max-width: 75%;
   display: block;
   margin: 0 auto;
@@ -149,7 +149,7 @@ p {
     font-size: 18px;
   }
 
-  .about-container {
+  .content-container {
     max-width: 75%;
     display: block;
     margin: 0 auto;
