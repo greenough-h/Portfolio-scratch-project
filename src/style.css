@@ -90,6 +90,14 @@ p {
   color: #b4acd7;
 }
 
+.my-work-unit {
+  transition: all 150ms ease-in-out;
+}
+
+.my-work-unit:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 50px;
