@@ -68,10 +68,13 @@ p {
 }
 
 .about-container {
-  padding: 50px;
   max-width: 70%;
   display: block;
   margin: 0 auto;
+}
+
+.content {
+  margin-right: 35px;
 }
 
 .content h1 {
@@ -83,7 +86,6 @@ p {
 }
 
 .content p {
-  font-size: 16px;
   color: #b4acd7;
 }
 
@@ -122,5 +124,27 @@ p {
     max-width: 65%;
     display: block;
     margin: 0 auto;
+  }
+
+  .content h1 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .profile-pic {
+    margin-top: 50px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 46px;
+  }
+
+  .content h2 {
+    font-size: 18px;
   }
 }
