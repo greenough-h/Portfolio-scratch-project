@@ -36,7 +36,6 @@ h2 {
   color: white;
   background-color: var(--accent-color);
   padding: 18px 36px;
-  margin: 25px;
   border-radius: 4px;
   border: 1px solid var(--accent-color);
 }
@@ -66,6 +65,26 @@ p {
   color: white;
   border: 1px solid var(--accent-color);
   background-color: var(--primary-color);
+}
+
+.about-container {
+  padding: 50px;
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-size: 76px;
+}
+
+.content h2 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #b4acd7;
 }
 
 @media (max-width: 768px) {
