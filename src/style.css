@@ -50,11 +50,15 @@ nav a:hover {
   max-height: 36px;
 }
 
+.logo-small {
+  max-height: 30px;
+}
+
 .hero {
   background-color: var(--primary-color);
   color: white;
   text-align: center;
-  padding: 160px;
+  padding: 160px 0 130px;
   width: 100%;
 }
 
